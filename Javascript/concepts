@@ -1,0 +1,7 @@
+- Polyfills
+- Object
+- Babel
+- Webpack
+- Garbage Collection:
+    => Reference-counting garbage collection.
+    => Mark-and-sweep algorithm.
