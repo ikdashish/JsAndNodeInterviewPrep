@@ -284,3 +284,9 @@ obj = 1; // what was the 'x' property of the object originally in obj
 ```
 ####  30. Explain Polyfill in Javscript.
 A polyfill is a piece of code (usually JavaScript on the Web) used to provide modern functionality on older browsers that do not natively support it. The reason why polyfills are not used exclusively is for better functionality and better performance.
+
+#### 31. Explain Throttling and Debouncing.
+Throttling: It will delay executing a function. It will reduce the notifications of an event that fires multiple times.
+Watch this video for more understanding : https://www.youtube.com/watch?v=81NGEXAaa3Y
+Debouncing: It will bunch a series of sequential calls to a function into a single call to that function. It ensures that one notification is made for an event that fires multiple times
+Watch this video for more understanding : https://www.youtube.com/watch?v=Zo-6_qx8uxg
