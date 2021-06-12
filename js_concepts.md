@@ -282,3 +282,5 @@ var obj = {
 obj = 1; // what was the 'x' property of the object originally in obj
          // has zero references to it. It can be garbage collected.
 ```
+####  30. Explain Polyfill in Javscript.
+A polyfill is a piece of code (usually JavaScript on the Web) used to provide modern functionality on older browsers that do not natively support it. The reason why polyfills are not used exclusively is for better functionality and better performance.
