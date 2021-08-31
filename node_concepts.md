@@ -92,6 +92,7 @@ The package.json file is the heart of a Node.js system. This file holds the meta
 
 This is what a package.json file looks like immediately after creating a Node.js project using the command: npm init
 You can edit the parameters when you create a Node.js project.
+
 ![image](https://www.simplilearn.com/ice9/free_resources_article_thumb/node-npm.JPG)
 
 ### 13. Explain asynchronous and non-blocking APIs in Node.js.
@@ -100,6 +101,7 @@ A Node.js-based server never waits for an API to return data. Instead, it moves 
 
 ### 14. How do we implement async in Node.js?
 As shown below, the async code asks the JavaScript engine running the code to wait for the request.get() function to complete before moving on to the next line for execution.
+
 ![image](https://www.simplilearn.com/ice9/free_resources_article_thumb/async.JPG)
 
 What is the purpose of module.exports?
@@ -110,6 +112,7 @@ A callback is a function called after a given task. This prevents any blocking a
 
 ### 16.  What is REPL in Node.js?
 REPL stands for Read Eval Print Loop, and it represents a computer environment. It’s similar to a Windows console or Unix/Linux shell in which a command is entered. Then, the system responds with an output
+
 ![image](https://www.simplilearn.com/ice9/free_resources_article_thumb/repl2.JPG)
 
 ### 17. What is the difference between fork() and spawn() methods in Node.js?
@@ -147,6 +150,7 @@ HTTP defines a set of request methods used to perform desired actions. The reque
 * DELETE: Used to delete the predetermined resource
 
 ### 24. What is the purpose of NODE_ENV?
+
 ![image](https://www.simplilearn.com/ice9/free_resources_article_thumb/node-env.JPG)
 
 ### 25. How Node.js overcomes the problem of blocking of I/O operations?
