@@ -8,11 +8,11 @@ Node.js is perfect for data-intensive applications as it uses an asynchronous, e
 ### 2. Why use Node.js?
 Node.js makes building scalable network programs easy. Some of its advantages include:
 
-a. It is generally fast
-b. It rarely blocks
-c. It offers a unified programming language and data type
-d. Everything is asynchronous 
-e. It yields great concurrency
+*. It is generally fast
+*. It rarely blocks
+*. It offers a unified programming language and data type
+*. Everything is asynchronous 
+*. It yields great concurrency
 
 ### 3. How does Node.js work?
 A web server using Node.js typically has a workflow that is quite similar to the diagram illustrated below. Let’s explore this flow of operations in detail.
