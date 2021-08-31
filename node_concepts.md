@@ -78,6 +78,7 @@ Event loops handle asynchronous callbacks in Node.js. It is the foundation of th
 EventEmitter is a class that holds all the objects that can emit events
 Whenever an object from the EventEmitter class throws an event, all attached functions are called upon synchronously
 /eventemitter
+
 ![image](https://www.simplilearn.com/ice9/free_resources_article_thumb/eventemitter.JPG)
 
 ### 11. What are the two types of API functions in Node.js?
