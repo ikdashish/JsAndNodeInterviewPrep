@@ -20,12 +20,11 @@ A web server using Node.js typically has a workflow that is quite similar to the
 Node.js Architecture Workflow
 ![image](https://user-images.githubusercontent.com/26089829/131538586-4dd57d26-30a9-4dde-bdb0-fb16e7f61be0.png)
 
-https://www.simplilearn.com/ice9/free_resources_article_thumb/Node.js_Architecture_Workflow.png
 
 
 Node is completely event-driven. Basically the server consists of one thread processing one event after another.
 
-https://github.com/learning-zone/nodejs-interview-questions/blob/master/assets/event-loop.png
+![image](https://github.com/learning-zone/nodejs-interview-questions/blob/master/assets/event-loop.png)
 
 A new request coming in is one kind of event. The server starts processing it and when there is a blocking IO operation, it does not wait until it completes and instead registers a callback function. The server then immediately starts to process another event (maybe another request). When the IO operation is finished, that is another kind of event, and the server will process it (i.e. continue working on the request) by executing the callback as soon as it has time.
 
@@ -79,7 +78,7 @@ Event loops handle asynchronous callbacks in Node.js. It is the foundation of th
 EventEmitter is a class that holds all the objects that can emit events
 Whenever an object from the EventEmitter class throws an event, all attached functions are called upon synchronously
 /eventemitter
-https://www.simplilearn.com/ice9/free_resources_article_thumb/eventemitter.JPG
+![image](https://www.simplilearn.com/ice9/free_resources_article_thumb/eventemitter.JPG)
 
 ### 11. What are the two types of API functions in Node.js?
 The two types of API functions in Node.js are:
@@ -92,7 +91,7 @@ The package.json file is the heart of a Node.js system. This file holds the meta
 
 This is what a package.json file looks like immediately after creating a Node.js project using the command: npm init
 You can edit the parameters when you create a Node.js project.
-https://www.simplilearn.com/ice9/free_resources_article_thumb/node-npm.JPG
+![image](https://www.simplilearn.com/ice9/free_resources_article_thumb/node-npm.JPG)
 
 ### 13. Explain asynchronous and non-blocking APIs in Node.js.
 All Node.js library APIs are asynchronous, which means they are also non-blocking
@@ -100,7 +99,7 @@ A Node.js-based server never waits for an API to return data. Instead, it moves 
 
 ### 14. How do we implement async in Node.js?
 As shown below, the async code asks the JavaScript engine running the code to wait for the request.get() function to complete before moving on to the next line for execution.
-https://www.simplilearn.com/ice9/free_resources_article_thumb/async.JPG
+![image](https://www.simplilearn.com/ice9/free_resources_article_thumb/async.JPG)
 
 What is the purpose of module.exports?
 A module in Node.js is used to encapsulate all the related codes into a single unit of code, which can be interpreted by shifting all related functions into a single file. You can export a module using the module.exports, which allows it to be imported into another file using a required keyword.
@@ -110,7 +109,7 @@ A callback is a function called after a given task. This prevents any blocking a
 
 ### 16.  What is REPL in Node.js?
 REPL stands for Read Eval Print Loop, and it represents a computer environment. It’s similar to a Windows console or Unix/Linux shell in which a command is entered. Then, the system responds with an output
-https://www.simplilearn.com/ice9/free_resources_article_thumb/repl2.JPG
+![image](https://www.simplilearn.com/ice9/free_resources_article_thumb/repl2.JPG)
 
 ### 17. What is the difference between fork() and spawn() methods in Node.js?
 fork() is a particular case of spawn() that generates a new instance of a V8 engine.Multiple workers run on a single node code base for multiple tasks.
@@ -147,7 +146,7 @@ HTTP defines a set of request methods used to perform desired actions. The reque
 * DELETE: Used to delete the predetermined resource
 
 ### 24. What is the purpose of NODE_ENV?
-https://www.simplilearn.com/ice9/free_resources_article_thumb/node-env.JPG
+![image](https://www.simplilearn.com/ice9/free_resources_article_thumb/node-env.JPG)
 
 ### 25. How Node.js overcomes the problem of blocking of I/O operations?
 Node.js solves this problem by putting the event based model at its core, using an event loop instead of threads.
@@ -290,7 +289,7 @@ The callback function further mostly have other callbacks associated within repr
 
 When all the items in the Event Queue are processed and there are no pending operations left, Node.js terminates the application automatically.
 
-https://github.com/learning-zone/nodejs-interview-questions/raw/master/assets/reactor-pattern.jpg
+![image](https://github.com/learning-zone/nodejs-interview-questions/raw/master/assets/reactor-pattern.jpg)
 
 The application generates a new I/O operation by submitting a request to the Event Demultiplexer. The application also specifies a handler, which will be invoked when the operation completes. Submitting a new request to the Event Demultiplexer is a non-blocking call and it immediately returns the control back to the application.
 When a set of I/O operations completes, the Event Demultiplexer pushes the new events into the Event Queue.
