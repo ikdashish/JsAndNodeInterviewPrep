@@ -18,6 +18,8 @@ Node.js makes building scalable network programs easy. Some of its advantages in
 A web server using Node.js typically has a workflow that is quite similar to the diagram illustrated below. Let’s explore this flow of operations in detail.
 
 Node.js Architecture Workflow
+![image](https://user-images.githubusercontent.com/26089829/131538586-4dd57d26-30a9-4dde-bdb0-fb16e7f61be0.png)
+
 https://www.simplilearn.com/ice9/free_resources_article_thumb/Node.js_Architecture_Workflow.png
 
 
