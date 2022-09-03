@@ -288,7 +288,9 @@ A polyfill is a piece of code (usually JavaScript on the Web) used to provide mo
 #### 31. Explain Throttling and Debouncing.
 #### Throttling: 
 It will delay executing a function. It will reduce the notifications of an event that fires multiple times.
+https://webdesign.tutsplus.com/tutorials/javascript-debounce-and-throttle--cms-36783
 Watch this video for more understanding : https://www.youtube.com/watch?v=81NGEXAaa3Y
 ##### Debouncing:
-It will bunch a series of sequential calls to a function into a single call to that function. It ensures that one notification is made for an event that fires multiple times
+It will bunch a series of sequential calls to a function into a single call to that function. It ensures that one notification is made for an event that fires multiple times.
+https://webdesign.tutsplus.com/tutorials/javascript-debounce-and-throttle--cms-36783
 Watch this video for more understanding : https://www.youtube.com/watch?v=Zo-6_qx8uxg
