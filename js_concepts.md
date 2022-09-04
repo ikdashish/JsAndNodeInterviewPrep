@@ -1,6 +1,8 @@
 
 ## FAQ of Javascript
 
+##### All questions: https://github.com/sudheerj/javascript-interview-questions
+
 ####  1. Explain Hoisting in javascript.
 Conceptually, definition of hoisting suggests that variable and function declarations are moved to the top of your code (making a variable accessible before its declaration), but this is not in fact what happens. Instead, the variable and function declarations are put into memory during the compile phase, but stay exactly where you typed them in your code.
 
